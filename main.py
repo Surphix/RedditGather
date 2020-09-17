@@ -1,5 +1,5 @@
 import os, argparse
-from reddit.gather import gather
+from gather.gather import gather
 import time
 
 

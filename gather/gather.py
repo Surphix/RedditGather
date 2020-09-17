@@ -1,8 +1,8 @@
 import praw, os
 from dotenv import load_dotenv
-from kafkah.produce import produce_k
-from sentiment.analysis import analysis_s
-from mapperh.map import submission_to_dict, comment_to_dict, reddit_to_json
+from .produce import produce_k
+from .analysis import analysis_s
+from .map import submission_to_dict, comment_to_dict, reddit_to_json
 
 def display_author(comment):
     if comment.author:
